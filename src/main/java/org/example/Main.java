@@ -42,12 +42,6 @@ public class Main {
                 result[r++] = teamB[j++];
             }
         }
-        while (i < teamA.length && r < 10) {
-            result[r++] = teamA[i++];
-        }
-        while (j < teamB.length && r < 10) {
-            result[r++] = teamB[j++];
-        }
         return result;
     }
 }
